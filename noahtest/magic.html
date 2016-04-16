@@ -1,0 +1,48 @@
+<html>
+<head>
+    
+     <link rel="stylesheet" type="text/css" href="magic.css">
+</head>
+<body>
+
+
+<main class="full-screen" role="main">
+  <section class="full-screen blue">
+    <div>
+      <h1>Basic Pin</h1>
+      <p>Elements are pinned for their respective pixel value set as the duration and released again.</p>
+    </div>
+  </section>
+
+  <section id="pinned-trigger1" class="full-screen orange">
+    <div id="pinned-element1">
+      <p>This element will be pinned once it's trigger hits the top of the viewport and will have a duration of window height minus 100</p>
+    </div> 
+  </section>
+
+  <section id="pinned-trigger2" class="full-screen red">
+    <div id="pinned-element2">
+      <p>This element will be pinned for a duration of 150px</p>
+    </div>
+  </section>
+  
+  <section class="full-screen blue">
+    <div>
+      <p>Section Four!</p>
+    </div>
+  </section>
+</main>
+
+
+<!— Include jQuery —>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ 
+ 
+    <!— Include ScrollMagic —>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+         
+    <!— Include main.js for our custom code —>
+    <script src="magic.js"></script>
+    
+    </body>
+    </html>

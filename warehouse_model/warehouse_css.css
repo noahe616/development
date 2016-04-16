@@ -1,0 +1,58 @@
+#list1{
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0;
+  width: 400px;
+
+
+ }
+
+
+  #list2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin:0px auto;
+    width: 400px;
+
+ }
+
+
+#list1 li{
+
+
+  float:left;
+  width: 80px;
+  height: 80px;
+  font-size: 11px;
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
+
+
+
+
+#list2 li{
+
+  float: left;
+  width: 80px;
+  height: 80px;
+  font-size: 11px;
+  color:white;
+  text-align: center;
+  background-color: #444444;
+}
+
+
+
+#inside{
+
+
+  float:left;
+  width: 80px;
+  height: 80px;
+  font-size: 11px;
+  text-align: center;
+  background-color: #e2e2e2;
+}
